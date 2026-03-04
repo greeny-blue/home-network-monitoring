@@ -1,2 +1,2 @@
 # home-network-monitoring
-Basic, lightweight tools for monitoring home network activity
+Basic, lightweight tools for monitoring home network activity.
