@@ -1,6 +1,6 @@
-# Homemap
+# homemap
 
-Homemap is a small experimental network discovery tool designed for **learning, exploration and home network visibility**.
+`homemap` is a small experimental network discovery tool designed for **learning, exploration and home network visibility**.
 
 The goal of the project is to gradually build a lightweight tool that performs some of the core functions of tools such as **Nmap**, while remaining simple enough to understand at a systems level.
 
@@ -44,7 +44,7 @@ Later phases address these limitations.
 
 ## Design Philosophy
 
-Homemap is intentionally built in **small steps**.
+`homemap` is intentionally built in **small steps**.
 
 Each phase:
 
@@ -165,7 +165,7 @@ homemap/
 
 ## Disclaimer
 
-Homemap is intended for **educational and defensive use**.
+`homemap` is intended for **educational and defensive use**.
 
 Only run network scanning tools on:
 
