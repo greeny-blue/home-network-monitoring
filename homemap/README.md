@@ -62,7 +62,7 @@ A design journal in this repository records the reasoning behind each developmen
 
 The project is structured into clear development phases.
 
-### Phase 1 — ICMP Host Discovery
+### [Phase 1 — ICMP Host Discovery](https://github.com/greeny-blue/home-network-monitoring/tree/main/homemap/phase01_icmp)
 Baseline network scanner.
 
 Features:
