@@ -1,4 +1,4 @@
-# home-network-monitoring
+# Home Network Monitoring
 
 A small collection of tools for exploring and understanding activity on a local network.
 
