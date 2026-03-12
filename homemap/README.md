@@ -144,21 +144,21 @@ Better understand **normal behaviour on a home network**.
 ---
 
 ## Project Structure
-homemap/
-│
-├─ phase01_icmp/
-│ ├─ ping_local_hosts_v0.sh
-│ ├─ ping_local_hosts_v1.sh
-│ ├─ ping_local_hosts_v2.sh
-│ ├─ ping_local_hosts_v3.sh
-│ ├─ DESIGN_EVOLUTION.md
-│ └─ DESIGN_EVOLUTION_SUMMARY.md
-│
-├─ phase02_arp/
-│ ├─ COMING SOON!
-│
-├─ DESIGN_JOURNAL.md COMING SOON!
-│
+homemap/  
+│  
+├─ phase01_icmp/  
+│ ├─ ping_local_hosts_v0.sh  
+│ ├─ ping_local_hosts_v1.sh  
+│ ├─ ping_local_hosts_v2.sh  
+│ ├─ ping_local_hosts_v3.sh  
+│ ├─ DESIGN_EVOLUTION.md  
+│ └─ DESIGN_EVOLUTION_SUMMARY.md  
+│  
+├─ phase02_arp/  
+│ ├─ COMING SOON!  
+│  
+├─ DESIGN_JOURNAL.md COMING SOON!  
+│  
 └─ README.md
 
 ---
