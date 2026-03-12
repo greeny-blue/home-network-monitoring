@@ -144,7 +144,7 @@ Better understand **normal behaviour on a home network**.
 ---
 
 ## Project Structure
-homemap/  
+```homemap/  
 │  
 ├─ phase01_icmp/  
 │  ├─ ping_local_hosts_v0.sh  
@@ -160,7 +160,7 @@ homemap/
 ├─ DESIGN_JOURNAL.md COMING SOON!  
 │  
 └─ README.md
-
+```
 ---
 
 ## Disclaimer
