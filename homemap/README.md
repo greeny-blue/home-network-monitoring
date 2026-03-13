@@ -79,7 +79,7 @@ Purpose:
 
 ---
 
-### Phase 2 — ARP-Based Local Discovery
+### [Phase 2 — ARP-Based Local Discovery](https://github.com/greeny-blue/home-network-monitoring/tree/main/homemap/phase02_arp)
 Improve host detection on local networks.
 
 Planned additions:
