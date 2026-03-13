@@ -25,7 +25,7 @@ Planned capabilities include:
 - Vendor lookup via OUI
 - Simple reporting of discovered hosts and services
 
-The project is being built iteratively, starting from simple ICMP and bash-based discovery tools and gradually expanding toward a more complete Python-based scanner.
+The project is being built iteratively, starting from simple ICMP and shell-based discovery tools and gradually expanding toward a more complete Python-based scanner.
 
 The emphasis is on **clarity of implementation and learning**, rather than speed or stealth.
 
