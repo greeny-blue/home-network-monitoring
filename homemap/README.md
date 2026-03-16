@@ -63,7 +63,7 @@ A design journal in this repository records the reasoning behind each developmen
 The project is structured into clear development phases.
 
 ### [Phase 1 — ICMP Host Discovery](https://github.com/greeny-blue/home-network-monitoring/tree/main/homemap/phase01_icmp)
-Baseline network scanner.
+Most basic form of network host discovery.
 
 Features:
 - CIDR-based host enumeration
@@ -72,27 +72,27 @@ Features:
 - controlled parallelisation
 - cross-platform behaviour (macOS / Linux)
 
-Purpose:
-- establish basic host discovery
-- validate scanning workflow
-- identify portability issues
-
 ---
 
-### [Phase 2 — ARP-Based Local Discovery](https://github.com/greeny-blue/home-network-monitoring/tree/main/homemap/phase02_arp)
-Improve host detection on local networks.
+### [Phase 2 — ARP-Based Host Discovery](https://github.com/greeny-blue/home-network-monitoring/tree/main/homemap/phase02_arp)
+Improves host detection on local networks; ARP operates at the data-link layer and typically provides **more reliable host discovery within a local subnet**.
 
-Planned additions:
+Features:
 - ARP request scanning
 - MAC address collection
 - vendor lookup (OUI)
 
-Why:
-ARP operates at the data-link layer and typically provides **more reliable host discovery within a local subnet**.
+---
+
+### Phase 3 — SYN-Based Host Discovery
+Uses SYN to discover hosts. Spoiler: slow and unreliable without prior knowledge of MAC addresses!
+
+Features:
+- TCP SYN scanning
 
 ---
 
-### Phase 3 — Port Scanning
+### Phase 4 — Port Scanning
 Identify exposed services on discovered hosts.
 
 Planned additions:
@@ -105,7 +105,7 @@ Determine **what services devices on the network are exposing**.
 
 ---
 
-### Phase 4 — Service Identification
+### Phase 5 — Service Identification
 Understand what software is running.
 
 Planned additions:
@@ -118,7 +118,7 @@ Provide context for discovered services.
 
 ---
 
-### Phase 5 — Vulnerability Context
+### Phase 6 — Vulnerability Context
 Provide security insight.
 
 Planned additions:
@@ -130,7 +130,7 @@ Highlight **potential security issues on the network**.
 
 ---
 
-### Phase 6 — Network Behaviour Observation
+### Phase 7 — Network Behaviour Observation
 Explore network activity patterns.
 
 Possible additions:
